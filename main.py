@@ -19,6 +19,7 @@ if __name__ == '__main__':
             continue
         if user_input == '2':
             get_all()
+            continue
         if user_input == '3':
             get_id()
             continue
