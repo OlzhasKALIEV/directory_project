@@ -6,7 +6,7 @@ db = SQLAlchemy()
 class Contact(db.Model):
     __tablename__ = 'directory'
 
-    id_contacts = db.Column(db.Integer, primary_key=True)
+    id_directory = db.Column(db.Integer, primary_key=True)
     last_name = db.Column(db.String(100))
     first_name = db.Column(db.String(100))
     middle_name = db.Column(db.String(100))
