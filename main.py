@@ -12,4 +12,4 @@ if __name__ == '__main__':
         elif user_input == '2':
             break
         else:
-            print('Invalid command')
+            print('Неверная команда')
