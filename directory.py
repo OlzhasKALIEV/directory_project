@@ -121,7 +121,7 @@ def update_id():
                 contact.work_phone = work_phone
                 db.session.commit()
 
-            if team_number == 5:
+            if team_number == 6:
                 personal_phone = input('Введите новый Личный номер телефона: ')
                 contact.personal_phone = personal_phone
                 db.session.commit()
